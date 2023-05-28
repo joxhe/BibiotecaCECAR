@@ -3982,6 +3982,14 @@
             "target": "Package",
             "version": "[1.4.0.3, )"
           },
+          "BottomNavigationBar": {
+            "target": "Package",
+            "version": "[1.4.0.3, )"
+          },
+          "Syncfusion.Xamarin.Core": {
+            "target": "Package",
+            "version": "[21.2.5, )"
+          },
           "Syncfusion.Xamarin.Core": {
             "target": "Package",
             "version": "[21.2.5, )"
@@ -3990,9 +3998,21 @@
             "target": "Package",
             "version": "[3.0.0.5, )"
           },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.0.0.5, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

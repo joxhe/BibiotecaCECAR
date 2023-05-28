@@ -37,7 +37,7 @@
                        Padding="0"
                        IsClippedToBounds="True"
                        BorderColor="Aquamarine">
-                        <ImageButton Source="https://i.scdn.co/image/ab6761610000e5ebc9961730f0c082259ac0c22a" 
+                        <ImageButton Source="https://openseauserdata.com/files/69000a2a875b875f789e24d2615b6ca3.jpg" 
                        HorizontalOptions="End"
                        VerticalOptions="End"
                         Clicked="usuario"/>
@@ -46,6 +46,55 @@
                 
             </StackLayout>
             <BoxView Color="Black" HeightRequest="2"></BoxView>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />                    
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Row="0" BackgroundColor="white" HorizontalOptions="Start" Padding="20">
+                    <Image Source="https://i.pinimg.com/736x/76/6f/3d/766f3d034ffe6a13acfbe9394553c531--novel-cover-design-book-cover-designs.jpg" WidthRequest="120"></Image>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Grid.Row="0"  BackgroundColor="white" Padding="-55,40" HorizontalOptions="Start">
+                    <Label Text="Días para entregar el libro: 1" TextColor="Black" FontAttributes="Bold" FontSize="18"></Label>
+                    <ProgressBar Progress="0.9" ProgressColor="#64A40C"></ProgressBar>
+                </StackLayout>
+
+                <StackLayout Grid.Column="0" Grid.Row="1" BackgroundColor="white" HorizontalOptions="Start" Padding="20">
+                    <Image Source="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1547929697/content-items/002/728/738/Captura_de_pantalla_2019-01-19_a_las_21.22.29-original.png?1547929697" WidthRequest="120"></Image>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Grid.Row="1"  BackgroundColor="white" Padding="-55,40" HorizontalOptions="Start">
+                    <Label Text="Días para entregar el libro: 3" TextColor="Black" FontAttributes="Bold" FontSize="18"></Label>
+                    <ProgressBar Progress="0.7" ProgressColor="#64A40C"></ProgressBar>
+                </StackLayout>
+
+                <StackLayout Grid.Column="0" Grid.Row="2" BackgroundColor="white" HorizontalOptions="Start" Padding="20">
+                    <Image Source="https://zumografica.com/wp-content/uploads/2017/09/libro-imprenta-lima.jpg" WidthRequest="120"></Image>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Grid.Row="2"  BackgroundColor="white" Padding="-55,40" HorizontalOptions="Start">
+                    <Label Text="Días para entregar el libro: 5" TextColor="Black" FontAttributes="Bold" FontSize="18"></Label>
+                    <ProgressBar Progress="0.5" ProgressColor="#64A40C"></ProgressBar>
+                </StackLayout>
+
+
+
+
+            </Grid>
+
+        
+
+            
+
 
         </StackLayout>
         

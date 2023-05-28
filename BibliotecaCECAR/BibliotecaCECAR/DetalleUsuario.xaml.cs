@@ -19,7 +19,7 @@ namespace BibliotecaCECAR
 
         private async void ImageButton_Clicked(object sender, EventArgs e)
         {
-            await  Launcher.OpenAsync(new Uri("https://youtu.be/AAbAw3sgeow?t=116"));
+            await  Launcher.OpenAsync(new Uri("https://github.com/joxhe"));
         }
     }
 }
