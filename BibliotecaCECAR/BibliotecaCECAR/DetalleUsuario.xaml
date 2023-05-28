@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotecaCECAR.DetalleUsuario"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False"
+             >
+    
+    <ScrollView>
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0" Padding="20,10,20,20">
+                <StackLayout>
+                        <Label Text="Carnet estudiantil" FontSize="Title" HorizontalOptions="Center" FontAttributes="Bold"  TextColor="Black"></Label>
+                    <Grid>
+                        <Image Source="fondo.png" Aspect="AspectFill" />
+                        <Frame Padding="10" HorizontalOptions="Center" VerticalOptions="Center" BorderColor="White" CornerRadius="100" BackgroundColor="white">
+                            <Frame CornerRadius="100" 
+                       HeightRequest="160"
+                       WidthRequest="160"
+                       HorizontalOptions="Center"
+                       Padding="0"
+                       IsClippedToBounds="True"
+                       BorderColor="Aquamarine">
+                                <Image Source="https://i.scdn.co/image/ab6761610000e5ebc9961730f0c082259ac0c22a" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                            </Frame>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+                <Label Text="Mora" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black"/>
+                    <Label Text="Ingeniería de sistemas" FontSize="20" HorizontalOptions="Center"  TextColor="Black"/>
+                    <Label Text="1103498069" FontSize="20" HorizontalOptions="Center"  TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1">
+                <BoxView HeightRequest="5" BackgroundColor="#C1C1C1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+
+                <StackLayout Orientation="Horizontal">
+                        <Label Text="Fecha de nacimiento" FontAttributes="Bold" FontSize="17" HorizontalOptions="StartAndExpand"  TextColor="Black"></Label>
+                        <Label Text="14/04/2005" FontSize="16" HorizontalOptions="EndAndExpand"  TextColor="Black"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                        <Label Text="Género" FontAttributes="Bold" FontSize="17" HorizontalOptions="StartAndExpand"  TextColor="Black"></Label>
+                        <Label Text="Másculino" FontSize="16" HorizontalOptions="EndAndExpand"  TextColor="Black"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                        <Label Text="E-mail" FontAttributes="Bold" FontSize="17" HorizontalOptions="StartAndExpand"  TextColor="Black"></Label>
+                        <Label Text="mora@cecar.edu.co" FontSize="16" HorizontalOptions="EndAndExpand"  TextColor="Black"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                        <Label Text="Semestre" FontAttributes="Bold" FontSize="17" HorizontalOptions="StartAndExpand"  TextColor="Black"></Label>
+                        <Label Text="6" FontSize="16" HorizontalOptions="EndAndExpand"  TextColor="Black"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                        <Label Text="Fecha de ingreso" FontAttributes="Bold" FontSize="17" HorizontalOptions="StartAndExpand"  TextColor="Black"></Label>
+                        <Label Text="10/02/2023" FontSize="16" HorizontalOptions="EndAndExpand"  TextColor="Black"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                </StackLayout>
+
+
+                <BoxView HeightRequest="5" BackgroundColor="#C1C1C1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+
+                <StackLayout Orientation="Vertical">
+                        <Label Text="Código QR" FontAttributes="Bold" FontSize="23" HorizontalOptions="StartAndExpand"  TextColor="Black"></Label>
+                    <ImageButton Source="QR.png" HeightRequest="140" BackgroundColor="Transparent" Clicked="ImageButton_Clicked"></ImageButton>
+
+                </StackLayout>
+
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+    </ScrollView>
+
+
+</ContentPage>

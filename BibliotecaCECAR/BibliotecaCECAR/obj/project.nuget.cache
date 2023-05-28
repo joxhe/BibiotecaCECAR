@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "WO1N2Levv7U6i5NJ+9Y63dXMR5GdRzz8EsK0lxOFJjJD+h1f95yw/r2ti42vT0uLE5hZBWWWZJOq5pN1El5cYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joser\\source\\repos\\BibliotecaCECAR\\BibliotecaCECAR\\BibliotecaCECAR\\BibliotecaCECAR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joser\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\syncfusion.licensing\\21.2.5\\syncfusion.licensing.21.2.5.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\syncfusion.xamarin.core\\21.2.5\\syncfusion.xamarin.core.21.2.5.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\thrivegmbh.bottomnavigationbar.xf\\1.0.2\\thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"ThriveGmbH.BottomNavigationBar.XF 1.0.2\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "ThriveGmbH.BottomNavigationBar.XF",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

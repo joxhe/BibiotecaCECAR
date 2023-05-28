@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "tdCu40aE5D8kZlamHiAdTlwdFgW1ChN/Vj78yYPognXer8tS2ACLoGlSjkSBQ4Y63EFtWNoiYx77KnVRi9mhyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joser\\source\\repos\\BibliotecaCECAR\\BibliotecaCECAR\\BibliotecaCECAR.iOS\\BibliotecaCECAR.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joser\\.nuget\\packages\\syncfusion.licensing\\21.2.5\\syncfusion.licensing.21.2.5.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\syncfusion.xamarin.core\\21.2.5\\syncfusion.xamarin.core.21.2.5.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\thrivegmbh.bottomnavigationbar.xf\\1.0.2\\thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\joser\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

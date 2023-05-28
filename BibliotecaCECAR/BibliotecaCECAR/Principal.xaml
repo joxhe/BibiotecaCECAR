@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xf:BottomBarPage  xmlns:xf="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotecaCECAR.Principal"
+                   NavigationPage.HasNavigationBar="false"
+                   NavigationPage.HasBackButton="False">
+
+      
+        <ContentPage IconImageSource="home.png" Title="Inicio">
+
+        <StackLayout BackgroundColor="White">
+
+            <StackLayout Orientation="Horizontal">
+
+                <StackLayout HorizontalOptions="Start"  Padding="0,10,0,0">
+                    <Label Text="¡Hola!" FontSize="18" TextColor="Black"></Label>
+                    <Label Text="José Ruiz" FontSize="30" TextColor="Black" FontAttributes="Bold"></Label>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="End" Orientation="Vertical" Padding="140,10,0,0">
+                    <ImageButton Source="bell.png"
+                             BackgroundColor="Transparent"
+                             Padding="0,0,0,0"
+                                 Clicked="notificaciones"></ImageButton>
+
+                    <ImageButton Source="off.png"
+                             BackgroundColor="Transparent"
+                             Padding="0,0,0,0"
+                                 Clicked="cerrar"></ImageButton>
+                </StackLayout>
+
+                <Frame Padding="10"  VerticalOptions="Start" BorderColor="White" CornerRadius="100" BackgroundColor="white" HorizontalOptions="End">
+                        <Frame CornerRadius="100" 
+                       HeightRequest="50"
+                       WidthRequest="50"
+                       HorizontalOptions="Start"
+                       Padding="0"
+                       IsClippedToBounds="True"
+                       BorderColor="Aquamarine">
+                        <ImageButton Source="https://i.scdn.co/image/ab6761610000e5ebc9961730f0c082259ac0c22a" 
+                       HorizontalOptions="End"
+                       VerticalOptions="End"
+                        Clicked="usuario"/>
+                        </Frame>
+                    </Frame>
+                
+            </StackLayout>
+            <BoxView Color="Black" HeightRequest="2"></BoxView>
+
+        </StackLayout>
+        
+            
+        </ContentPage>
+    
+    
+        <ContentPage IconImageSource="search.png" Title="Buscar" BackgroundColor="White">
+            
+             <SearchBar  VerticalOptions="StartAndExpand" WidthRequest="2" HeightRequest="30" TextColor="Black" Placeholder="Buscar un libro"
+                        ></SearchBar>
+                        
+        </ContentPage>
+
+        <ContentPage IconImageSource="libro.png" Title="Biblioteca" BackgroundColor="White">
+
+        <Label Text="Esta es la biblioteca" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+
+        </ContentPage>
+
+
+
+
+</xf:BottomBarPage>
