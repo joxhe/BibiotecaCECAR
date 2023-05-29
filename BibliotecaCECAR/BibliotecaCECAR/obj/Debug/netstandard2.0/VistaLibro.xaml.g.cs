@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("BibliotecaCECAR.Principal.xaml", "Principal.xaml", typeof(global::BibliotecaCECAR.Principal))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("BibliotecaCECAR.VistaLibro.xaml", "VistaLibro.xaml", typeof(global::BibliotecaCECAR.VistaLibro))]
 
 namespace BibliotecaCECAR {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Principal.xaml")]
-    public partial class Principal : global::BottomBar.XamarinForms.BottomBarPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("VistaLibro.xaml")]
+    public partial class VistaLibro : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.CollectionView Lista;
+        private global::Xamarin.Forms.Image pic1;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Principal));
-            Lista = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CollectionView>(this, "Lista");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(VistaLibro));
+            pic1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "pic1");
         }
     }
 }

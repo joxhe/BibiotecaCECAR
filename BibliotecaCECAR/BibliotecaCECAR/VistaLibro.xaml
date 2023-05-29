@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotecaCECAR.VistaLibro"
+            >
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Label Text="{Binding libros.nombreLibro}"
+                        HorizontalOptions="Center"
+                           TextColor="Black"
+                           FontSize="Title"/>
+
+            <Image Source="{Binding libros.imagen}"
+                             WidthRequest="200"
+                             x:Name="pic1"/>
+           
+            <Label Text="{Binding libros.autor}"
+                       TextColor="black"
+                           FontSize="Body"/>
+
+            <Label Text="{Binding libros.edicion}"
+                       TextColor="black"
+                           FontSize="Body"/>
+
+            <Label Text="{Binding libros.categoría}"
+                       TextColor="black"
+                           FontSize="Body"/>
+
+            <Label Text="{Binding libros.ISBN}"
+                       TextColor="black"
+                           FontSize="Body"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

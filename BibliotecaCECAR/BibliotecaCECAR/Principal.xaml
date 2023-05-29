@@ -56,7 +56,7 @@
 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />                    
+                    <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
                 <StackLayout Grid.Row="0" BackgroundColor="white" HorizontalOptions="Start" Padding="20">
@@ -85,27 +85,52 @@
                     <Label Text="Días para entregar el libro: 5" TextColor="Black" FontAttributes="Bold" FontSize="18"></Label>
                     <ProgressBar Progress="0.5" ProgressColor="#64A40C"></ProgressBar>
                 </StackLayout>
-
-
-
-
             </Grid>
-
-        
-
-            
-
-
-        </StackLayout>
-        
-            
+        </StackLayout>            
         </ContentPage>
     
     
-        <ContentPage IconImageSource="search.png" Title="Buscar" BackgroundColor="White">
-            
-             <SearchBar  VerticalOptions="StartAndExpand" WidthRequest="2" HeightRequest="30" TextColor="Black" Placeholder="Buscar un libro"
-                        ></SearchBar>
+        <ContentPage IconImageSource="search.png" Title="Buscar" BackgroundColor="White"
+                   >
+
+        <StackLayout>
+            <SearchBar  VerticalOptions="StartAndExpand" WidthRequest="2" HeightRequest="30" TextColor="Black" Placeholder="Buscar un libro" BackgroundColor="#C9E89E"
+              TextChanged="SearchBar_TextChanged">
+            </SearchBar>
+
+            <CollectionView ItemsSource="{Binding listaLibros}"
+                            x:Name="Lista"
+                            EmptyView="No hay na"
+                            BackgroundColor="#C9E89E"
+                            SelectionChanged="lista_SelectionChanged"
+                            SelectionMode="Single">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Frame BackgroundColor="#C9E89E"
+                                   Padding="2">
+
+                                <Image Source="{Binding imagen}"
+                                       HeightRequest="100"
+                                       Grid.Column="0"></Image>
+                            </Frame>
+                            <Label Text="{Binding nombreLibro}"
+                                       Grid.Column="1"
+                                       TextColor="White"
+                                       FontSize="Large"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
                         
         </ContentPage>
 

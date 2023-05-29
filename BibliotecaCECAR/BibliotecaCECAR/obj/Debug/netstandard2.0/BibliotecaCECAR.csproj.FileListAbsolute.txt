@@ -16,3 +16,4 @@ C:\Users\joser\source\repos\BibliotecaCECAR\BibliotecaCECAR\BibliotecaCECAR\obj\
 C:\Users\joser\source\repos\BibliotecaCECAR\BibliotecaCECAR\BibliotecaCECAR\obj\Debug\netstandard2.0\DetalleUsuario.xaml.g.cs
 C:\Users\joser\source\repos\BibliotecaCECAR\BibliotecaCECAR\BibliotecaCECAR\obj\Debug\netstandard2.0\Notificaciones.xaml.g.cs
 C:\Users\joser\source\repos\BibliotecaCECAR\BibliotecaCECAR\BibliotecaCECAR\obj\Debug\netstandard2.0\Principal.xaml.g.cs
+C:\Users\joser\source\repos\BibliotecaCECAR\BibliotecaCECAR\BibliotecaCECAR\obj\Debug\netstandard2.0\VistaLibro.xaml.g.cs
